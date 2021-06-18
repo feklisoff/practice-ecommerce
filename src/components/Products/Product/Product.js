@@ -23,7 +23,7 @@ const Product = ({ product, onAddToCart }) => {
             </CardContent>
             <CardActions disableSpacing className={classes.CardActions}>
                 <IconButton area-label='Add to Cart' onClick={() => onAddToCart(product.id, 1)}>
-                    <AddShoppingCart></AddShoppingCart>
+                    <AddShoppingCart />
                 </IconButton>
             </CardActions>
         </Card>
